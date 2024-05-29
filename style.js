@@ -1,6 +1,7 @@
-const sidebar = documentquerySelector(".sidebar")
-function showNav (){
-sidebar.style.display = "flex"
+const sidebar = document.querySelector(".sidebar");
+function showNav() {
+  sidebar.style.display = "flex";
 }
-function hideNav(){
-sidebar.style.display="none"}
+function hideNav() {
+  sidebar.style.display = "none";
+}

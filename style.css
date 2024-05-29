@@ -402,6 +402,87 @@ line-height: 26px;
 #star{
   color: none;
 }
+.lastsection{
+  background-color: #12082D;
+  ;
+}
+.eightsection{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 62px;
+}
+.eightsection p{
+  color: #ffff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+
+
+}
+.eightsection h1{
+  color: #EF9B11;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 30px;
+  
+
+  }
+
+
+#icons{
+display: flex;
+gap: 12px;
+margin-bottom: 69px;
+
+}
+.one{
+margin-top: 26px;
+}
+.one p{
+margin-top: 51px;
+margin-bottom: 40px;
+}
+.eightsection h1{
+margin-top: 61px;
+}
+.responsive{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+height: 60px;
+top: 4097px;
+left: 29px;
+gap: 46px;
+border-radius: 10px 0px 0px 0px;
+opacity: 0px;
+
+}
+.responsive :nth-child(2){
+  background-color: #ffffff;
+  width: 200px;
+height: 65px;
+border-radius: 10px;
+
+
+}
+.responsive + div{
+  margin-top: 120px;
+  color: #FFFFFF;
+}
+
+
+
+.stores{
+  display: none;
+}
+
+
+ 
+
+
+
+
 
  
 
@@ -709,8 +790,105 @@ padding-bottom: 30px;
   .John{
     display: block;
   }
-  
+ 
+  .eightsection{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 62px;
+  }
+  .eightsection p{
+    color: #ffff;
+   font-size: 22px;
+   font-weight: 500;
+   line-height: 30px;
+   text-align: left;
 
+  }
+  .eightsection h1{
+    color: #EF9B11;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 30px;
+    }
   
-
+  
+#icons{
+  display:flex;
+  gap: 12px;
 }
+.one{
+  
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 26px;
+}
+.one p{
+  margin-top: 51px;
+  margin-bottom: 40px;
+}
+.eightsection h1{
+  margin-top: 61px;
+}
+.one + .store{
+  display: flex;
+  flex-direction: column;
+}
+
+#icons{
+  display: flex;
+  gap: 12px;
+  order: 2;
+  
+  }
+  .one{
+  margin-top: 26px;
+  }
+  .one p{
+  margin-top: 51px;
+  margin-bottom: 40px;
+  }
+  .eightsection h1{
+  margin-top: 61px;
+  }
+  
+  
+  
+  .stores {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  order: 1;
+  
+  
+  
+  }
+  .stores :first-child{
+  background-color: #EF9B11;
+  width: 280px;
+  height: 80px;
+  gap: 0px;
+  border-radius: 10px ;
+  
+  }
+  .stores :nth-child(2){
+  background-color: #ffffff;
+  width: 280px;
+  height: 80px;
+  gap: 0px;
+  border-radius: 10px ;
+  }
+  .responsive{
+    display: none;
+  }
+.icons2{
+  display:none;
+}
+  .responsive + div{
+    display: none;
+  }
+  
+  }
+  
+  
+
+
