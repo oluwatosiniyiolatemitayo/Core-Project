@@ -256,15 +256,19 @@ letter-spacing: 0.01em;
  }
  .sixth{
 background-image: url(asset/Grouped.png);
-width: 100%;
+background-size: cover;
+background-position: center;
+
 
 
  }
  .sixthsection {
   display: grid;
-  grid-template-columns: repeat(2,1fr); 
-  gap: 10.79px;
-  width:100% ;
+  gap: 2rem;
+  padding-top: 61px;
+  padding-bottom: 61px;
+ 
+  
  }
  
  
@@ -273,54 +277,44 @@ width: 100%;
 font-size: 12px;
 font-weight: 900;
 line-height: 50px;
-margin-top: 125.72px;
+
 
 }
 .sixthsection h1{
 font-size: 18px;
 font-weight: 600;
-line-height: 62px;
-
 
 }
-.phone img{
-  width: 167.28px;
-  height: 334.11px;
-  margin-left: 19.34px;
-  margin-top: 67.16px;
+.store{
+  display: flex;
+  flex-wrap:wrap ;
+  align-items: center;
+  gap: 20px;
 }
-.store :first-child{
-  width: 104.98px;
-height: 40.88px;
-border-radius: 10px 0px 0px 0px;
+.store img{
+  width: 190px;
+}
 
-}
-.store :nth-child(2){
-  width: 104.98px;
-height: 40.88px;
-border-radius: 10px 0px 0px 0px;
 
-}
+
 .set h1{
 font-size: 12px;
 font-weight: 600;
-line-height: 62px;
-margin-top: 0.24px;
-height: 46px;
-width: 188px;
+margin-bottom: 20px;
+
 }
 .set p{
-  width: 76.15px;
-  Height:22.73px ;
+
 font-size: 10px;
 font-weight: 900;
 line-height: 50px;
-margin-bottom: px;
+
 
 
 }
 .client{
   background-color:#FFBB0B80;
+  padding-bottom: 93px;
 }
   
 .gaint span{
@@ -476,6 +470,16 @@ border-radius: 10px;
 .stores{
   display: none;
 }
+.phone{
+  display: block;
+  margin: auto;
+  width:290px;
+}
+
+ 
+
+
+
 
 
  
@@ -483,13 +487,18 @@ border-radius: 10px;
 
 
 
+ @media screen and (min-width:768px){
 
- 
+  
+  .sixthsection {
+    grid-template-columns: repeat(2,1fr); 
+    align-items: center;
 
-
-
-
- 
+  } 
+  .store img{
+    width: 154px;
+  }
+ }
 
   
    
@@ -497,7 +506,7 @@ border-radius: 10px;
 
 
 
-  @media screen and (min-width:1023px) {
+  @media screen and (min-width:1024px) {
     .same{
       display: flex !important;
     }
@@ -672,24 +681,12 @@ letter-spacing: 0.01em;
   }
   .sixthsection p{
     
-    width: 171px;
-    height: 12px;
-    top: 2769px;
-    left: 762px;
-    
-font-size: 14px;
-font-weight: 900;
-line-height: 50px;
+   font-size: 14px;
 
-
-    
-  }
+}
   .sixthsection h1{
-    width: 458px;
-    height: 62px;
-    top: 2811px;
-    left: 762px;
-    color: #2F2F2F;
+    
+   color: #2F2F2F;
     margin-top: 20px;
     margin-bottom:40px;
 font-size: 48px;
@@ -697,30 +694,22 @@ font-weight: 600;
 line-height: 62px;
 
 }
-  
-    .sixthsection {
-    display: grid;
-    grid-template-columns: repeat(2,1fr); 
-    gap: 116px;
-    width:100% ;
-    
-   } 
-   .phone img{
+   .phone {
     width: 368px;
-    height: 778.37px;
-    margin-left: 278px;
-    margin-top: 61px;
+
 
 
    }
 
-   .set{
-    margin-top: 306px;
-    }
+   
     .store{
       display: flex;
+      flex-wrap: nowrap;
       gap: 20px;
-      margin-bottom: 101px;
+      
+    }
+    .store img{
+      width:226px;
     }
     
     
@@ -750,19 +739,16 @@ line-height: 64px;
 letter-spacing: 0.01em;
 }
    .gridsection{
-    display: flex; 
-    justify-content:space-between;
-    gap: 39.19px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    gap: 30px;
     
-     
+
   } 
    .grid{
     background-color:#ffff;
-    width: 467.81px;
-    height: 320px;
-    top: 3431px;
-    left: 115px;
-    box-shadow: 0px 20px 30px 0px #0000000D;  
+    box-shadow: 0px 20px 30px 0px #0000000D; 
+    padding:27px 8px 34px 67px ;
    }
    .grid p{
   
@@ -770,25 +756,24 @@ font-size: 18px;
 font-weight: 500;
 line-height: 36px;
 letter-spacing: 0.01em;
-text-align: cente;
-justify-content: cente;
-width: 392px;
-height: 180px;
-padding-left: 67px;
+padding-top: 30px;
+
+
+
  }
 .grid h1{
 
 font-size: 18px;
 font-weight: 700;
 line-height: 26px;
-padding-top: 27px;
-padding-left: 67px;
-padding-bottom: 30px;
 
 
   }
   .John{
     display: block;
+  }
+  .client{
+    padding-bottom: 103px;
   }
  
   .eightsection{
